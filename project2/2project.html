@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f9f9f9; /* Light Purple */
+            color: #060606;
+        }
+        .navbar {
+            background-color: #74b5b5; /* Light Purple */
+        }
+        .welcome-notice {
+            background-color:#74b5b5; /* Light Purple */
+            color: #fff5f5;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .table {
+            margin-top: 20px;
+        }
+        .table th {
+            background-color:#74b5b5; 
+            color: #fff;
+        }
+        .table tr:hover {
+            background-color: #ddf1f4;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Company</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="tasks.html">Task </a></li>
+            <li class="nav-item"><a class="nav-link" href="suggestions.html">Suggestions </a></li>
+            <li class="nav-item"><a class="nav-link" href="updates.html">Updates</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html"> Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="reports.html">Reports</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <div class="welcome-notice">
+        <h2 class="text-center">WELCOME TO H&A COMPANY </h2>
+        <p class="text-center">Employees Data</p>
+    </div>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Employee Name</th>
+                <th>Age</th>
+                <th>Position</th>
+                <th>Other Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ali Ahmed</td>
+                <td>30</td>
+                <td>Project Manager</td>
+                <td>Additional Details</td>
+            </tr>
+            <tr>
+                <td>Sara Mohamed</td>
+                <td>25</td>
+                <td>Designer</td>
+                <td>Additional Details</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>28</td>
+                <td>Software Engineer</td>
+                <td>Additional Details</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>32</td>
+                <td>Product Owner</td>
+                <td>Additional Details</td>
+            </tr>
+            <tr>
+                <td>Mohamed Ali</td>
+                <td>27</td>
+                <td>Marketing Specialist</td>
+                <td>Additional Details</td>
+            </tr>
+            <!-- More data rows here -->
+        </tbody>
+    </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
